@@ -9,7 +9,7 @@ A local static project website. Open `index.html` directly; no build, installati
 
 ## Contents
 
-- Technical Report and Paper resource placeholders, marked “Coming soon” until URLs are available.
+- Technical Report linked to the [arXiv PDF](https://arxiv.org/pdf/2610.25517); Paper remains marked “Coming soon” until its URL is available.
 - Original teaser, architecture, HD scaling figure, and two qualitative comparisons.
 - Verbatim manuscript abstract and four evidence-grounded takeaways.
 - CD, time, and speedup relative to VGGT for nine benchmark settings and nine methods. Standard-resolution results expand below the four HD tables.
@@ -24,7 +24,7 @@ Content comes from the supplied `ICLR_2027` manuscript and image assets. Author 
 
 The result tables are the numerical source of truth where prose disagrees. CD and runtime precision is retained. Speedup is VGGT runtime divided by each method’s runtime in the same benchmark, rounded to two decimals. Bold denotes the lowest CD or time within each dataset, including ties; blue shading identifies the ReDT variants. The 20-view ETH3D scaling plot explicitly excludes task heads from runtime and memory measurements.
 
-The original images and labels are unchanged, including the manuscript’s resolution nomenclature. The teaser’s 8.60-second example is presented as the illustrated forward pass, separately from benchmark table values. The manuscript source contains no compiled PDF and its local TeX installation lacks required packages, so no broken paper/supplementary or code buttons are displayed.
+The original images and labels are unchanged, including the manuscript’s resolution nomenclature. The teaser’s 8.60-second example is presented as the illustrated forward pass, separately from benchmark table values. The technical report links to the author-supplied arXiv PDF; the Paper resource remains marked “Coming soon” until its URL is available.
 
 ## Attribution
 
